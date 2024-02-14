@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website in Html Css Javascript</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.1.0/remixicon.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="nav__container">
+            <div class="logo">
+                <h1>RENDEV</h1>
+            </div>
+            <ul class="nav__links">
+                <li>
+                    <a href="#" class="active"
+                        onclick="scrollToSmoothly(document.querySelector('nav').offsetTop, 500)">Home</a>
+                </li>
+                <li>
+                    <a href="#about"
+                        onclick="scrollToSmoothly(document.querySelector('#about').offsetTop, 500)">About</a>
+                </li>
+                <li>
+                    <a href="#portofolio"
+                        onclick="scrollToSmoothly(document.querySelector('#portofolio').offsetTop, 500)">Portofolio</a>
+                </li>
+                <li>
+                    <a href="#contact"
+                        onclick="scrollToSmoothly(document.querySelector('#contact').offsetTop, 500)">Contact</a>
+                </li>
+            </ul>
+            <button class="nav__toggle-btn" id="nav__toggle-open"><i class="uil uil-bars"></i></button>
+            <button class="nav__toggle-btn" id="nav__toggle-close"><i class="uil uil-times"></i></button>
+        </div>
+    </nav>
+
+    <header>
+        <div class="header__container container">
+            <div class="header__left">
+                <h1>Hello World👋,</h1>
+                <h2>Im R e n d y</h2>
+                <span class="ketik"></span>
+                <p>Welcome To My Personal Website</p>
+                <h3>My Socials Media :</h3>
+                <div class="sosial__media">
+                    <button class="btn">
+                        <a href="">
+                            <i class="uil uil-instagram"></i> Instagram
+                        </a>
+                    </button>
+                    <button class="btn">
+                        <a href="">
+                            <i class="uil uil-facebook"></i> Facebook
+                        </a>
+                    </button>
+                </div>
+            </div>
+
+            <div class="header__right">
+                <div class="wrap">
+                    <div class="circle">
+                        <img src='/images/leeseo.jpeg' alt=''>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+    </header>
+
+    <main>
+        <section class="about" id="about">
+            <h1>About Me <i class="uil uil-user"></i></h1>
+            <h2>Hi, I'm Rendy! I'm a Dki Jakarta based Web Designer & Front-end Developer focused on
+                creating clean, responsive web designs!</h2>
+            <div class="container__about">
+                <div class="skills_main">
+                    <div class="skill_bar">
+                        <div class="info">
+                            <strong><i class="uil uil-html5"></i> HTML</strong>
+                            <p>100%</p>
+                        </div>
+                        <div class="bar">
+                            <span class="html"></span>
+                        </div>
+                    </div>
+                    <div class="skill_bar">
+                        <div class="info">
+                            <strong><i class="uil uil-css3-simple"></i> CSS</strong>
+                            <p>100%</p>
+                        </div>
+                        <div class="bar">
+                            <span class="css"></span>
+                        </div>
+                    </div>
+                    <div class="skill_bar">
+                        <div class="info">
+                            <strong><svg xmlns="http://www.w3.org/2000/svg"
+                                    class="icon icon-tabler icon-tabler-brand-tailwind" width="24" height="24"
+                                    viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M11.667 6c-2.49 0 -4.044 1.222 -4.667 3.667c.933 -1.223 2.023 -1.68 3.267 -1.375c.71 .174 1.217 .68 1.778 1.24c.916 .912 2 1.968 4.288 1.968c2.49 0 4.044 -1.222 4.667 -3.667c-.933 1.223 -2.023 1.68 -3.267 1.375c-.71 -.174 -1.217 -.68 -1.778 -1.24c-.916 -.912 -1.975 -1.968 -4.288 -1.968zm-4 6.5c-2.49 0 -4.044 1.222 -4.667 3.667c.933 -1.223 2.023 -1.68 3.267 -1.375c.71 .174 1.217 .68 1.778 1.24c.916 .912 1.975 1.968 4.288 1.968c2.49 0 4.044 -1.222 4.667 -3.667c-.933 1.223 -2.023 1.68 -3.267 1.375c-.71 -.174 -1.217 -.68 -1.778 -1.24c-.916 -.912 -1.975 -1.968 -4.288 -1.968z" />
+                                </svg> Tailwind</strong>
+                            <p>80%</p>
+                        </div>
+                        <div class="bar">
+                            <span class="Tailwind"></span>
+                        </div>
+                    </div>
+                    <div class="skill_bar">
+                        <div class="info">
+                            <strong><i class="ri-javascript-line"></i> Java Script</strong>
+                            <p>60%</p>
+                        </div>
+                        <div class="bar">
+                            <span class="js"></span>
+                        </div>
+                    </div>
+                    <div class="skill_bar">
+                        <div class="info">
+                            <strong><i class="uil uil-react"></i> React js</strong>
+                            <p>40%</p>
+                        </div>
+                        <div class="bar">
+                            <span class="react"></span>
+                        </div>
+                    </div>
+                    <div class="skill_bar">
+                        <div class="info">
+                            <strong><i class="uil uil-java-script"></i> Node js</strong>
+                            <p>40%</p>
+                        </div>
+                        <div class="bar">
+                            <span class="node"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <section class="portofolio" id="portofolio">
+            <h1>Project Me</h1>
+            <div class="portofolio__container">
+                <div class="card">
+                    <img src="/images/TokoABC.png" alt="">
+                    <div class="content">
+                        <p>Php form Validasi</p>
+                        <a href="https://9bc96e11-ab26-40e6-8a17-bf5d8994f867-00-nqur8n5wh0ox.spock.replit.dev/">Live
+                            Demo</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/images/FORM.png" alt="">
+                    <div class="content">
+                        <p>Php form Validasi</p>
+                        <a href="https://24469f07-0124-4b7c-8e62-e3feff9ac4a9-00-2djetp7ryi0j1.spock.replit.dev/">Live
+                            Demo</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/images/CRUD.png" alt="">
+                    <div class="content">
+                        <p>Crud Javascript</p>
+                        <a href="https://ee400c2f-ab61-4bf9-893e-5b1e3152dff0-00-29s7b31szqgn3.riker.replit.dev/">Live
+                            Demo</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <h1>Contact Us</h1>
+            <div class="form__container">
+                <form>
+                    <label for="name">Name</label>
+                    <input type="text" class="name">
+                    <label for="email">Email</label>
+                    <input type="email" class="email">
+                    <label for="phone">Phone</label>
+                    <input type="number" class="phone">
+                    <label for="message">Message</label>
+                    <textarea class="message"></textarea>
+                </form>
+                <button class="btn" type="button" onclick="sendwhatsapp();">Send Via WhatsApp</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="currentYear"></span> My Website. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>
