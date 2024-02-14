@@ -73,8 +73,7 @@ function sendwhatsapp() {
     "%0a" +
     "*Message :* " +
     message +
-    "%0a%0a" +
-    "This is an example of sending HTML form data to WhatsApp";
+    "%0a%0a";
 
   window.open(url, "_blank").focus();
 }
